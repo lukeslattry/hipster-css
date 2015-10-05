@@ -1,5 +1,5 @@
 # Hipster
-A CSS Processor with a CLI and [Gulp Plugin](http://nmpjs.org/packages/gulp) built on PostCSS.
+A CSS Processor with a CLI and [Gulp Plugin](https://github.com/lukeslattry/gulp-hipster-css) built on PostCSS.
 
 ### Why?
 PostCSS is fast, *very fast*, but it can be a pain to intergrate into your build stream. Hipster fixs this with a CLI and a Glup Plugin, leveraging the speed of PostCSS and removing the intergration headaches.

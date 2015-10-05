@@ -1,0 +1,34 @@
+{
+  "name": "hipster-css",
+  "version": "0.0.1",
+  "description": "A CSS Processor built on postCSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lukeslattry/hipster-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Luke Slattery <lukeslattery@me.com> (http://lukeslattery.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukeslattry/hipster-css/issues"
+  },
+  "homepage": "https://github.com/lukeslattry/hipster-css",
+  "bin": {
+    "hipster": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "postcss": "^5.0.8",
+    "postcss-calc": "^5.0.0",
+    "postcss-import": "^7.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-sassy-mixins": "^1.0.0",
+    "postcss-simple-vars": "^1.0.1"
+  }
+}

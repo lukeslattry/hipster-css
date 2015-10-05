@@ -41,24 +41,7 @@ header {
 @import "lib/normalize.css";
 @import "media-queries/menu.css" (min-width: 480px);;
 ```
-<!---
-#### Value Interation
-```css
-/* Iterate */
-@each $icon in foo, bar, baz {
-	.icon-$(icon) {
-		background: url('icons/$(icon).png');
-	}
-}
 
-/* Iterate with Index */
-@each $val, $i in foo, bar {
-	.icon-$(val) {
-    	background: url("$(val)_$(i).png");
-	}
-}
-```
--->
 ### Default Features
 #### calc() Reductions
 Reducing calc() references whenever it's possible with the [postcss-calc](https://www.npmjs.com/package/postcss-calc) plugin.

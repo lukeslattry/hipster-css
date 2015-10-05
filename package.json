@@ -1,6 +1,6 @@
 {
   "name": "hipster-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CSS Processor built on postCSS.",
   "main": "index.js",
   "scripts": {
